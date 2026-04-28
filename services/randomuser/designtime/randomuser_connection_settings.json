@@ -1,0 +1,36 @@
+{
+  "endpointAddress" : "https://randomuser.me/api/",
+  "method" : "GET",
+  "headers" : { },
+  "redirectEnabled" : true,
+  "requestBody" : "",
+  "queryParams" : {
+    "results" : "5"
+  },
+  "authDetails" : null,
+  "contentType" : "application/json",
+  "multiParamInfoList" : [ ],
+  "urlBasePath" : "",
+  "sampleHttpResponseDetails" : {
+    "statusCode" : 200,
+    "headers" : {
+      "Date" : [ "Tue, 28 Apr 2026 06:27:00 GMT" ],
+      "Content-Type" : [ "application/json; charset=utf-8" ],
+      "Transfer-Encoding" : [ "chunked" ],
+      "Connection" : [ "keep-alive" ],
+      "Server" : [ "cloudflare" ],
+      "Nel" : [ "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}" ],
+      "X-Powered-By" : [ "Express" ],
+      "Access-Control-Allow-Origin" : [ "*" ],
+      "Cache-Control" : [ "no-cache" ],
+      "ETag" : [ "W/\"159f-u/MN6WYXFp/iD0REqna8EC/3wiE\"" ],
+      "Vary" : [ "Accept-Encoding" ],
+      "cf-cache-status" : [ "DYNAMIC" ],
+      "Report-To" : [ "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=F9nnk%2FNh9CJd3jOshpDNgGgGq9X5CDcv2SwWeMTFiChCwa7BZPhqVJSyHozIN25TvIpQFp05QCGZHywp1eUJHwIm4ocCogXnD%2BhWLlAFwf6SIaqprqoPELoHvvQdpniP\"}]}" ],
+      "CF-RAY" : [ "9f33ffaa58445bff-IAD" ],
+      "alt-svc" : [ "h3=\":443\"; ma=86400" ]
+    },
+    "responseBody" : "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"Mrs\",\"first\":\"Nica\",\"last\":\"Moraes\"},\"location\":{\"street\":{\"number\":4454,\"name\":\"Rua Principal\"},\"city\":\"Rio de Janeiro\",\"state\":\"Goiás\",\"country\":\"Brazil\",\"postcode\":94138,\"coordinates\":{\"latitude\":\"-75.8926\",\"longitude\":\"44.5628\"},\"timezone\":{\"offset\":\"0:00\",\"description\":\"Western Europe Time, London, Lisbon, Casablanca\"}},\"email\":\"nica.moraes@example.com\",\"login\":{\"uuid\":\"b9a778b5-ebbc-41b8-9038-e0de89f4077a\",\"username\":\"orangetiger137\",\"password\":\"choochoo\",\"salt\":\"RQXhSFec\",\"md5\":\"4a6bceb6d8df41929d07bcf06a764fb2\",\"sha1\":\"2ae1406be4be200b950f5213060757884d3d8d7f\",\"sha256\":\"6873187881ae350c1e34cd241b3496c0a9c52cfd66d322f5f75d4678e0645982\"},\"dob\":{\"date\":\"1990-10-07T00:47:58.436Z\",\"age\":35},\"registered\":{\"date\":\"2020-12-12T13:15:44.350Z\",\"age\":5},\"phone\":\"(59) 2044-6658\",\"cell\":\"(02) 4947-6787\",\"id\":{\"name\":\"CPF\",\"value\":\"384.422.820-22\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/50.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/50.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/50.jpg\"},\"nat\":\"BR\"}],\"info\":{\"seed\":\"60072fdce89690d5\",\"results\":5,\"page\":1,\"version\":\"1.4\"}}",
+    "convertedResponse" : null
+  }
+}
