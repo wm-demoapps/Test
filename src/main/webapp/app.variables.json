@@ -106,6 +106,7 @@
     "saveInPhonegap" : false,
     "inFlightBehavior" : "executeLast",
     "transformationRequired" : false,
+    "redirectTo" : "Login",
     "useDefaultSuccessHandler" : true
   },
   "supportedLocale" : {
